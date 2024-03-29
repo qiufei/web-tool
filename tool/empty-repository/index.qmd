@@ -1,8 +1,11 @@
 ---
 title: "创建空的git分支"
-date: "2008-03-24"
+date: "2024-03-29"
 categories: ['bash','git']
 image: https://hdata.obs.cn-east-3.myhuaweicloud.com/blog/old_images/leeland.jpg
+execute:
+  eval: false
+  echo: false
 ---
 
 
