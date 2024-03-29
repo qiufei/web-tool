@@ -1,0 +1,16 @@
+---
+title: "创建空的git分支"
+date: "2008-03-24"
+categories: ['bash','git']
+image: https://hdata.obs.cn-east-3.myhuaweicloud.com/blog/old_images/leeland.jpg
+---
+
+
+创建一个名叫gh-pages的空分支，用于github pages。
+```{bash}
+git checkout --orphan gh-pages
+git reset --hard # make sure all changes are committed before running this!
+git commit --allow-empty -m "Initialising gh-pages branch"
+git push origin gh-pages
+```
+
