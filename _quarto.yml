@@ -1,0 +1,53 @@
+project:
+  type: website
+
+website:
+  site-url: https://qiufei.site/tool
+  search: true
+  # 设置网站图标
+  favicon: profile.jpg
+  # back-to-top-navigation: true
+  # bread-crumbs: true
+  # title: "首页"
+  navbar:
+    left:
+      - text: "首页"
+        href: https://qiufei.site
+    right:
+      # - slide.qmd
+      # - invest.qmd
+      # - life.qmd
+      - text: 市场
+        href: https://qiufei.site/market
+      - text: 感受
+        href: https://qiufei.site/mind
+      - text: 课件
+        href: https://qiufei.site/slide
+      - text: 讲义
+        href: https://qiufei.site/book
+      - text: 工具
+        href: https://qiufei.site/tool
+      # - icon: github
+      #   href: https://github.com/
+      - about.qmd
+  page-footer:
+    left: ↑ [![](https://www.rstudio.com/assets/img/posit-logo-fullcolor-TM.svg){fig-alt="Posit" width=65px}](https://posit.co)
+    center: 
+      - text: "邱飞 &copy; 2008-2024"
+      - text: "浙ICP备 2024072710号-1"
+        href: "https://beian.miit.gov.cn"
+      - text: "浙公网安备 33021202002511号"
+        href: "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33021202002511"
+    right:
+      - icon: envelope-at-fill
+        href: mailto:hfutqiufei@163.com
+      # - text: ←
+format:
+  html:
+    theme:
+     light: journal
+     dark: cyborg
+    css: styles.css
+
+execute:
+  freeze: auto
