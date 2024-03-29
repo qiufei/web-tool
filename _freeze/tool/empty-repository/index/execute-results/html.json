@@ -1,10 +1,10 @@
 {
-  "hash": "13c405b4e2d8ca0709746d8f4db8ef22",
+  "hash": "dcba61d3ef12084f5152fc5f9b7a1184",
   "result": {
     "engine": "jupyter",
-    "markdown": "---\ntitle: \"创建空的git分支\"\ndate: \"2008-03-24\"\ncategories: ['bash','git']\nimage: https://hdata.obs.cn-east-3.myhuaweicloud.com/blog/old_images/leeland.jpg\n---\n\n创建一个名叫gh-pages的空分支，用于github pages。\n\n```{bash}\ngit checkout --orphan gh-pages\ngit reset --hard # make sure all changes are committed before running this!\ngit commit --allow-empty -m \"Initialising gh-pages branch\"\ngit push origin gh-pages\n```\n\n",
+    "markdown": "---\ntitle: \"创建空的git分支\"\ndate: \"2024-03-29\"\ncategories: ['bash','git']\nimage: https://hdata.obs.cn-east-3.myhuaweicloud.com/blog/old_images/leeland.jpg\nexecute:\n  eval: false\n  echo: false\n---\n\n创建一个名叫gh-pages的空分支，用于github pages。\n\n```{bash}\ngit checkout --orphan gh-pages\ngit reset --hard # make sure all changes are committed before running this!\ngit commit --allow-empty -m \"Initialising gh-pages branch\"\ngit push origin gh-pages\n```\n\n",
     "supporting": [
-      "index_files"
+      "index_files\\figure-html"
     ],
     "filters": [],
     "includes": {}
