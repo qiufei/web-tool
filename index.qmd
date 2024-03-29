@@ -1,5 +1,5 @@
 ---
-title: "感受：博客随笔"
+title: "工具：安装、配置和使用"
 listing:
   contents: tool
   sort: "date desc"
