@@ -4,7 +4,14 @@
     "href": "index.html",
     "title": "工具：安装、配置和使用",
     "section": "",
-    "text": "Date\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nMar 24, 2008\n\n\nIt Is Sheer Good Fortune To Miss Somebody Long Before They Leave You\n\n\n \n\n\n\n\n\nNo matching items"
+    "text": "Date\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nMar 24, 2008\n\n\nIt Is Sheer Good Fortune To Miss Somebody Long Before They Leave You\n\n\n \n\n\n\n\nMar 24, 2008\n\n\n创建空的git分支\n\n\n \n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "tool/empty-repository/index.html",
+    "href": "tool/empty-repository/index.html",
+    "title": "创建空的git分支",
+    "section": "",
+    "text": "创建一个名叫gh-pages的空分支，用于github pages。\ngit checkout --orphan gh-pages\ngit reset --hard # make sure all changes are committed before running this!\ngit commit --allow-empty -m \"Initialising gh-pages branch\"\ngit push origin gh-pages"
   },
   {
     "objectID": "tool/it-is-sheer-good-fortune-to-miss-somebody-long-before-they-leave-you/index.html",
