@@ -1,5 +1,5 @@
 ---
-title: "创建空的git分支"
+title: "利用quarto和github pages创建网站"
 date: "2024-03-29"
 categories: ['bash','git']
 image: https://hdata.obs.cn-east-3.myhuaweicloud.com/blog/old_images/leeland.jpg
@@ -9,12 +9,22 @@ execute:
 ---
 
 
-创建一个名叫gh-pages的空分支，用于github pages。
+## 发布步骤
 
-```{bash}
+应用模板后，首先要将创建 `gh-pages` 分支，用于github pages。
+
+```shell
 git checkout --orphan gh-pages
 git reset --hard # make sure all changes are committed before running this!
 git commit --allow-empty -m "Initialising gh-pages branch"
 git push origin gh-pages
 ```
 
+
+然后，在仓库的settings-pages中，找到默认分支设置，将默认分支设置为 `gh-pages` 分支。
+
+
+如果全站范围的内容结构发生可变化，要先运行
+```shell
+quarto render
+```
