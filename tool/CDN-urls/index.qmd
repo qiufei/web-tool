@@ -2,7 +2,7 @@
 title: "利用CDN预热网站"
 date: "2024-09-19"
 categories: ['CDN','web']
-image: https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/CDN/product_cdn_banner_icon@2x.png
+image: https://res-static.hc-cdn.cn/cloudbu-site/public/new-product-icon/ContentDeliveryEdgeComputing/CDN.png
 execute:
   eval: false
   echo: false
