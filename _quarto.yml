@@ -22,9 +22,9 @@ website:
       - text: 感受
         href: https://qiufei.site/web-mind
       - text: 课件
-        href: https://qiufei.site/slide
-      - text: 讲义
-        href: https://qiufei.site/book
+        href: https://qiufei.site/web-slide
+      # - text: 讲义
+      #   href: https://qiufei.site/web-book
       - text: 工具
         href: https://qiufei.site/web-tool
       # - icon: github
