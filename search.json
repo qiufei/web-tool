@@ -39,13 +39,13 @@
     "href": "tool/github-publish-quarto/index.html",
     "title": "利用quarto和github pages创建网站",
     "section": "",
-    "text": "应用模板后，首先要将创建 gh-pages 分支，用于github pages。\ngit checkout --orphan gh-pages\ngit reset --hard # make sure all changes are committed before running this!\ngit commit --allow-empty -m \"Initialising gh-pages branch\"\ngit push origin gh-pages\n然后，在仓库的settings-pages中，找到默认分支设置，将默认分支设置为 gh-pages 分支。\n如果全站范围的内容结构发生可变化，要先运行\nquarto render"
+    "text": "应用模板后，首先要将创建 gh-pages 分支，用于github pages。\ngit checkout --orphan gh-pages\ngit reset --hard # make sure all changes are committed before running this!\ngit commit --allow-empty -m \"Initialising gh-pages branch\"\ngit push origin gh-pages\n然后，在仓库的settings-pages中，找到默认分支设置，将默认分支设置为 gh-pages 分支。\n如果全站范围的内容结构发生可变化，要先运行\nquarto render\n比如新增了一篇博客文章，要运行。"
   },
   {
     "objectID": "tool/github-publish-quarto/index.html#发布步骤",
     "href": "tool/github-publish-quarto/index.html#发布步骤",
     "title": "利用quarto和github pages创建网站",
     "section": "",
-    "text": "应用模板后，首先要将创建 gh-pages 分支，用于github pages。\ngit checkout --orphan gh-pages\ngit reset --hard # make sure all changes are committed before running this!\ngit commit --allow-empty -m \"Initialising gh-pages branch\"\ngit push origin gh-pages\n然后，在仓库的settings-pages中，找到默认分支设置，将默认分支设置为 gh-pages 分支。\n如果全站范围的内容结构发生可变化，要先运行\nquarto render"
+    "text": "应用模板后，首先要将创建 gh-pages 分支，用于github pages。\ngit checkout --orphan gh-pages\ngit reset --hard # make sure all changes are committed before running this!\ngit commit --allow-empty -m \"Initialising gh-pages branch\"\ngit push origin gh-pages\n然后，在仓库的settings-pages中，找到默认分支设置，将默认分支设置为 gh-pages 分支。\n如果全站范围的内容结构发生可变化，要先运行\nquarto render\n比如新增了一篇博客文章，要运行。"
   }
 ]
