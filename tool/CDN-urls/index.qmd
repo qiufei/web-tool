@@ -1,0 +1,19 @@
+---
+title: "利用CDN预热网站"
+date: "2024-09-19"
+categories: ['CDN','web']
+image: https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/CDN/product_cdn_banner_icon@2x.png
+execute:
+  eval: false
+  echo: false
+---
+
+## 预热网址
+
+https://qiufei.site/
+https://qiufei.site/web-market
+https://qiufei.site/web-mind/
+https://qiufei.site/web-slide
+https://qiufei.site/web-slide-marketing
+https://qiufei.site/web-tool
+https://qiufei.site/about.html
