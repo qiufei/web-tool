@@ -1,1 +1,1 @@
-Sitemap: https://qiufei.site/web-tool/sitemap.xml
+Sitemap: https://qiufei.github.io/web-tool/sitemap.xml
