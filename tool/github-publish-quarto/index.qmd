@@ -13,7 +13,7 @@ execute:
 
 应用模板后，首先要将创建 `gh-pages` 分支，用于github pages。
 
-```{shell}
+```shell
 git checkout --orphan gh-pages
 git reset --hard # make sure all changes are committed before running this!
 git commit --allow-empty -m "Initialising gh-pages branch"
@@ -25,7 +25,7 @@ git push origin gh-pages
 
 
 如果全站范围的内容结构发生可变化，要先运行
-```{shell}
+```shell
 quarto render
 ```
 
