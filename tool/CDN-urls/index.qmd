@@ -9,8 +9,8 @@ execute:
 ---
 
 ## 预热网址
-
-https://qiufei.site
+<!-- CDN预热刷新时，首页地址最后必须加上 `/`，否则会报错。 -->
+https://qiufei.site/
 
 https://qiufei.site/web-market
 
