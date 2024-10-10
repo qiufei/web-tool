@@ -23,3 +23,6 @@ https://qiufei.site/web-slide-marketing
 https://qiufei.site/web-tool
 
 https://qiufei.site/about.html
+
+
+https://console.huaweicloud.com/cdn/?agencyId=06297981498025c71fd2c00717b147e5&region=ap-southeast-2&locale=zh-cn#/cdn/cgw/refresh
